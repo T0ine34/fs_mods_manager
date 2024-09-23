@@ -1,0 +1,7 @@
+env/
+__pycache__/
+*.old
+*.log
+*.pyc
+*.zip
+mods/
