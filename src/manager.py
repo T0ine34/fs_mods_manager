@@ -57,5 +57,5 @@ if __name__ == "__main__":
     manager = Manager()
     stack = manager.getStack("mods_old")
     stack.enable()
-    stacks = manager.getStacks()
+    stacks = manager.getStacksNames()
     Logger.info(f"Got stacks {stacks}")

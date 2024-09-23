@@ -14,7 +14,7 @@ except ImportError:
 class UI(ThemedTk):
     def __init__(self):
         super().__init__()
-        self.set_theme("arc")
+        self.set_theme("equilux")
 
         self.title("Mod Manager")
 
@@ -29,10 +29,3 @@ class UI(ThemedTk):
         
     def __enableStack(self, stack : str):
         self.__manager.getStack(stack).enable()
-
-
-
-
-if __name__ == "__main__":
-    ui = UI()
-    ui.mainloop()
